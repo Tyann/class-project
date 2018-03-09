@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+     background-image: url("../chapter1/wall.jpg");
+        background-size: cover;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Colum</h2>
+    <p>Muhammad Ali the greatest boxer of all time.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column</h2>
+    <p>Muhammad Ali the greatest boxer of all time.</p>
+  </div>
+</div>
+
+</body>
+</html>
